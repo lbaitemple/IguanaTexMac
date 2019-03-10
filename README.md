@@ -23,8 +23,9 @@ There are 3 files to install:
 
 1. install AppleScript (IguanaTex.scpt)
 ```bash
+git clone https://github.com/lbaitemple/IguanaTexMac
 mkdir -p ~/Library/Application\ Scripts/com.microsoft.Powerpoint
-cp ./IguanaTex.scpt ~/Library/Application\ Scripts/com.microsoft.Powerpoint/IguanaTex.scpt
+cp ./AppleScript/IguanaTex.scpt ~/Library/Application\ Scripts/com.microsoft.Powerpoint/IguanaTex.scpt
 ```
 2. install IguanaTexHelper (libIguanaTexHelper.dylib)
 ```
